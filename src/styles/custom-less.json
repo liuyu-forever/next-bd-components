@@ -1,0 +1,17 @@
+{
+    "@primary-color": "#06f",
+    "@link-color": "#06f",
+    "@success-color": "#0c3",
+    "@warning-color": "#f90",
+    "@error-color": "#f33",
+    "@font-size-base": "14px",
+    "@heading-color": "#222",
+    "@text-color": "#666",
+    "@text-color-secondary": "#888",
+    "@disabled-color": "#ccc",
+    "@border-radius-base": "2px",
+    "@border-color-base": "#eee",
+    "@box-shadow-base": "0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05)",
+    "@body-background": "#f7f7fd",
+    "@btn-border-radius-base": "8px"
+}

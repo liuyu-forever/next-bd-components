@@ -1,0 +1,255 @@
+body,
+ul,
+ol,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre {
+  margin: 0;
+}
+
+ul,
+ol,
+input,
+button {
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  border: 0;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif, 'San Francisco',
+    'Helvetica Neue';
+  font-size: 14px;
+  outline: none;
+}
+
+iframe {
+  border-color: initial;
+  border-style: inset;
+  border-width: 0;
+  border-image: initial;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 基础样式重新设置 */
+
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif, 'San Francisco',
+    'Helvetica Neue';
+  font-size: 12px;
+  color: #000;
+  background-color: @body-background;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #aaa;
+}
+
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #aaa;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+
+/* 常用类名 */
+
+.clearfix::before,
+.clearfix::after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dis-none {
+  display: none;
+}
+
+.inlineBClear {
+  font-size: 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-80 {
+  margin-right: 80px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-6 {
+  margin-bottom: 6px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.flex-wrap {
+  display: flex;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.blod-font {
+  font-weight: bold;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.text-hover:hover {
+  color: @primary-color;
+  transition: all 0.2s;
+}
+
+.ant-cascader-picker-arrow {
+  color: #fff !important;
+}
+.ant-cascader-menu-item:hover {
+  font-weight: bold;
+  background: rgba(230, 244, 255) !important;
+}
+.ant-menu-inline-collapsed-tooltip {
+  .ant-tooltip-arrow-content {
+    width: 6px;
+    height: 7px;
+    background: #fff;
+  }
+  .ant-tooltip-inner {
+    width: 140px;
+    height: 40px;
+    padding: 0 8px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #0065fe;
+    background: #fff;
+  }
+}
